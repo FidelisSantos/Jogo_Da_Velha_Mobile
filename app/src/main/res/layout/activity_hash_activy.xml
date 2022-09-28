@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HashActivy">
+    <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:textAllCaps="true" app:fontFamily="sans-serif" app:emojiCompatEnabled="true"/>
+    <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn1" tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn2" tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn3" tools:ignore="SpeakableTextPresentCheck"/>
+    </TableRow>
+    <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn4" tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn5" tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn6" tools:ignore="SpeakableTextPresentCheck"/>
+
+
+
+    </TableRow>
+
+    <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn7" tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn8" tools:ignore="SpeakableTextPresentCheck"/>
+        <Button
+                android:layout_margin="2pt"
+                android:layout_width="45pt"
+                android:onClick="btnClick"
+                android:layout_height="45pt" android:id="@+id/btn9" tools:ignore="SpeakableTextPresentCheck"/>
+    </TableRow>
+    <Button
+            android:text="Exit"
+            android:layout_width="15pt"
+            android:onClick="btnClick"
+            android:layout_height="20pt" android:id="@+id/btn_exit" tools:ignore="TouchTargetSizeCheck"/>
+    <Button
+            android:text="Restart"
+            android:layout_width="15pt"
+            android:onClick="btnClick"
+            android:layout_height="20pt" android:id="@+id/btn_restart" tools:ignore="TouchTargetSizeCheck"/>
+
+
+
+
+</TableLayout>
