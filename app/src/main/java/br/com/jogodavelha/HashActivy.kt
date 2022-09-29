@@ -139,6 +139,9 @@ class HashActivy : AppCompatActivity() {
         btnReset = findViewById<Button>(R.id.btn9);
         btnReset.isEnabled = true
         btnReset.text = ""
+        player1.clear()
+        player2.clear()
+        count = 0
     }
 
     fun Exit(){
@@ -187,7 +190,7 @@ class HashActivy : AppCompatActivity() {
         {
             val game = storyGame(
                 game = "Jogo Recente",
-                winner = "Player" + winer + "venceu o jogo"
+                winner = "Player" + winer + " venceu o jogo"
             )
             GameRepository.getInstance().save(game)
         }
